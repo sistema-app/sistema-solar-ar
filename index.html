@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#070b19" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <title>Sistema Solar AR</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="ar-hud">
+      <header class="hud-top">
+        <span id="mode-badge" class="badge">Detectando...</span>
+        <p id="status-text" class="status">Inicializando 3D...</p>
+      </header>
+      <div id="info-card" class="info-card hidden"></div>
+      <footer class="hud-bottom">
+        <button id="btn-ar" class="btn-primary" disabled>Ver en Realidad Aumentada</button>
+        <button id="btn-pause" class="btn-secondary">Pausar</button>
+        <button id="btn-reset" class="btn-secondary">Centrar</button>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
