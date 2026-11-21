@@ -1,0 +1,1 @@
+{"name":"Sistema Solar AR","short_name":"Sistema Solar","description":"Sistema Solar 3D interactivo en Realidad Aumentada WebXR + PWA","start_url":"./","display":"standalone","background_color":"#070b19","theme_color":"#070b19","lang":"en","scope":"./","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
